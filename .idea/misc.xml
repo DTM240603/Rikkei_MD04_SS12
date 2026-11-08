@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Email-Service" />
+    <file type="web" url="file://$PROJECT_DIR$/Inventory-Service" />
+    <file type="web" url="file://$PROJECT_DIR$/Order-Service" />
     <file type="web" url="file://$PROJECT_DIR$/product-service" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="24" project-jdk-type="JavaSDK" />
