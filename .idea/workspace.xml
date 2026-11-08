@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4acffa95-863d-41e6-ac8d-2a7a87c81a97" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/ra/edu/hw/md04/ss12/inventory/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/ra/edu/hw/md04/ss12/inventory/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "ex02",
+    "git-widget-placeholder": "ex03",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Rikkei/Microservices/homework/Session12",
@@ -161,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1794151121896</updated>
       <workItem from="1794151123159" duration="769000" />
-      <workItem from="1794152016148" duration="952000" />
+      <workItem from="1794152016148" duration="1289000" />
     </task>
     <servers />
   </component>

@@ -18,14 +18,14 @@ public class OrderEmailConsumer {
         this.objectMapper = objectMapper;
     }
 
-    @KafkaListener(topics = "order-events", groupId = "email-service")
-    public void handleOrderCreated(String payload) throws Exception {
-        OrderCreatedEvent event = objectMapper.readValue(payload, OrderCreatedEvent.class);
+    @KafkaListener(topics = "order-results", groupId = "email-service")
+    public void handleOrderProcessed(String payload) throws Exception {
+        OrderProcessingResultEvent event = objectMapper.readValue(payload, OrderProcessingResultEvent.class);
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(event.customerEmail());
-        message.setSubject("Order confirmation #" + event.orderId());
-        message.setText("Your order for product " + event.productId()
-                + " (quantity " + event.quantity() + ") has been received.");
+        message.setSubject((event.successful() ? "Order confirmation #" : "Order unavailable #") + event.orderId());
+        message.setText(event.message() + ". Product " + event.productId()
+                + ", quantity " + event.quantity() + ".");
         mailSender.send(message);
     }
 }
